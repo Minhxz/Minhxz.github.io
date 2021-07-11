@@ -1,0 +1,105 @@
+
+        <!DOCTYPE html>
+        <html>
+        <title>Bài tập</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {font-family: "Roboto", Georgia, Serif;}
+            h1, h2, h3, h4, h5, h6 {
+                font-family: "Playfair Display";    
+                letter-spacing: 5px;
+            }
+        </style>
+        <body>
+        
+        <div class="top">
+            <div class="white bar" style="letter-spacing:4px;">
+                <a href="#home" class=" button">CSGO</a>
+                <div class="right">
+                    <a href="#about" class="button">Introduction</a>
+                    <a href="#menu" class="button">How to play</a>
+                    <a href="#contact" class="button">Contacts</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Header -->
+        <header class="display" style="max-width:1600px;min-width:500px" id="home">
+            <img class="w3-image" src="img/587593.png" alt="Hamburger Catering" width="1600" height="800">
+            <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+                <h1 class="w3-xxlarge">Le Catering</h1>
+            </div>
+        </header>
+        
+        <!-- Page content -->
+        <div class="content" style="max-width:1100px">
+        
+            <!-- About Section -->
+            <div class="row" id="about">
+                <div class="w3-col m6 w3-padding-large w3-hide-small">
+                    <img src="img/nv.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+                </div>
+        
+                <div class="w3-col m6 w3-padding-large">
+                    <h1 class="center">Introduction about the game</h1><br>
+                    <h5 class="center">Releashed in 2012</h5>
+                    <p class="large">Counter-Strike: Global Offensive is a tactical multiplayer first-person shooter computer game developed by Valve Corporation and Hidden Path Entertainment, which has also continued to maintain Counter-Strike: Source after release. This is the fourth game in the popular Counter-Strike series. If not counting the two online versions Counter-Strike Online (2007)
+                        and Counter-Strike Online 2 (2013).</p>
+                    <p> The game is developed based on the original content from
+                        Counter-Strike 1.6. Such as revamped versions of classic maps, weapons.
+                        As well as adding new maps, characters and game modes. Multi-platform multiplayer game
+                        was planned between Windows, OS X and PSN players, but was ultimately limited to
+                        Windows and OS X because of the difference in the number of updates between the systems.</p>
+                </div>
+            </div>
+        
+            <hr>
+
+            <div class="row" id="menu">
+                <div>
+                    <h1 class="center">How to play</h1><br>
+                    <h4>Step 1</h4>
+                    <p class="grey">Sign in with your personal <b>Steam</b> account </p><br>
+        
+                    <h4>Step 2 - Go to Store</h4>
+                    <p class="grey">Search <b>Counter-Strike: Global Offensive</b> in the search bar</p><br>
+        
+                    <h4>Step 3</h4>
+                    <p class="grey">Chose CS:GO, and press <b>"Play game"</b></p><br>
+        
+                    <h4>Step 4</h4>
+                    <p class="grey">Select the drive to install. If you don't have a Steam Library folder, you need to create a new folder (default folder is C drive). Choose the path to save game data through the option "<b>Choose location for install</b>"</p><br>
+        
+                    <h4>Step 5: Wait for Steam to complete the scan and click Finish</h4>
+                    <p class="grey">After the game has been download successfully, open the game and let's play CS: GO</p>
+                </div>
+        
+                <div>
+                    <img src="img/nv3.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+                </div>
+            </div>
+        
+            <hr>
+        
+            <div class="container" id="contact">
+                <h1>Contacts - Find your teammates</h1><br>
+                <p>If you've ever experienced the pain of finding a suitable teammate in CSGO, you probably understand how frustrating it can be. So I have made an option where CSGO players can find and contact teammates based on statistics of the player to find suitable teammates. And, more importantly,it's completely free !</b></p>
+                <form action="" target="_blank">
+                    <p><input class="input padding" type="text" placeholder="Account Name" required name="name"></p>
+                    <p><input class="input padding" type="number" placeholder="Number of players" required name="people"></p>
+                    <p><input class="input padding" type="datetime-local" placeholder="Date and Time" required name="date" value="2020-11-16T20:00"></p>
+                    <p><input class="input padding" type="text" placeholder="Comment" required name="message"></p>
+                    <p><button class="grey" type="submit">Submit</button></p>
+                </form>
+            </div>
+
+        </div>
+        
+        <footer> 
+            <p>@Coppyright by Valve</p>
+        </footer>
+        
+        </body>
+        </html>
