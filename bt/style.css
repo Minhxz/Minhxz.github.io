@@ -1,0 +1,27 @@
+
+        .container{
+            background: gray;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+
+
+        }
+        .b1, .b2,.b3,.b4{
+            width: 600px;
+            height:200px;
+            border: 1px solid black;
+        }
+        .b1{
+            background:red;
+        }
+        .b2{
+            background:yellow;
+        }
+        .b3{
+            background:green;
+        }
+        .b4{
+            background-color: orange;
+        }
