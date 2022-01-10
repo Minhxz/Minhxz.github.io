@@ -78,7 +78,7 @@ showMyCart.onclick = () => {
     showCartItem.style.display = "block"
     blackWrapper.style.display = "block"
 }
-
+ 
 closeMyCart.onclick = () => {
     showCartItem.style.display = 'none'
     blackWrapper.style.display = "none"
