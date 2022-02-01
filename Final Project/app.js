@@ -38,8 +38,8 @@ function renderData() {
     moneyMoney.innerHTML = `$${total}`
 }
 renderData()
+ 
 
-// Set data
 let addItem = document.querySelectorAll('.buttons')
 for (let x of addItem) {
     x.onclick = () => {
@@ -57,7 +57,7 @@ for (let x of addItem) {
         renderData()
     }
 }
-// Update data
+
 function removeItem(e) {
     for (let i =0;i< myCart.length;++i){
         if(myCart[i].name == e.id){
